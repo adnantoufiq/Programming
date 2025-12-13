@@ -1,4 +1,4 @@
-function nonRepChar(str) {
+function longestSubstringWithNonRepChar(str) {
     const n = char.length
     const map = new Map()
     let newStr = ''
@@ -25,4 +25,4 @@ function nonRepChar(str) {
 
 const char = 'abcdab';
 
-console.log(nonRepChar(char));
+console.log(longestSubstringWithNonRepChar(char));
